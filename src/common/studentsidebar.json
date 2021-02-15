@@ -1,0 +1,28 @@
+{
+  "SIDEBAR" : [
+        {
+          "Module_Name" : "Course Details",
+          "Icon"        : "nav-icon fas fa-copy",
+          "Url"         : "/courseList",
+          "Active"      : true,
+          "Sub_Module"  : [
+                          {
+                            "Module_Name" : "Available Courses",
+                            "Url"         : "/courseList",
+                            "Active"      : true
+                          },
+                          {
+                            "Module_Name" : "My Courses",
+                            "Url"         : "/listUserCourse",
+                            "Active"      : true
+                          }
+            ]
+          },
+          {
+            "Module_Name" : "User Profile",
+            "Icon"        : "nav-icon fa fa-user-plus",
+            "Url"         : "/profile",
+            "Active"      : true
+          }
+  ]
+}
